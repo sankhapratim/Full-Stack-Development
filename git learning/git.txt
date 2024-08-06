@@ -117,13 +117,13 @@ http://www.sankhapratim.com
 
 ****************************************************************************
 
-cd git\ learning/
-git status 
+cd folder_name
 git init
-git remote
-git remote add origin https://github.com/sankhapratim/readme-template.git
-git remote -v //status check korte
-git clone https://github.com/sankhapratim/readme-template.git
-git status   
+git add .
+git commit -m "প্রথম কমিট"
+git remote remove origin // jodi exit dekhai takhn remove kre abar next line ta korbo
+git remote add origin https://github.com/sankhapratim/Full-Stack-Development.git
+git branch  //jodi main toh main nahole niche master
+git push -u origin main
 
 rm -rf git learning //folder del krte chaile
