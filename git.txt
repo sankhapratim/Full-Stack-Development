@@ -1,0 +1,129 @@
+git hlo command line interface, GitHub hlo graphical user interface
+ctrl+L tiple clear
+git --version
+git config --list
+git config user.name
+git config user.email
+pwd
+ls //tiple vetore ki ache dekhai
+mkdir petbetha //kono folder banate gele mkdir likhte hoi
+cd petbetha  //oi folder a jete change directory
+git init //git initialize korle git toiri hbe,seta ls -a diye check kole dekhte pabo
+ls -a
+touch day1.txt  //kono file banate gele touch likhte hoi
+tarpor my computer a jeye day1.txt te kichu likhbo.
+git status  //eta likhle Untracked file gulo dekhai
+git add . // working directory theke staging directory te jete eta use hoi, dot use kori karon sob file gulo eksathe pathate. 
+
+git rm --cached day1.txt  //abar unstage a firiye ante chaile,bychane add kore dchi, back a aste chai Untracked a.
+
+git status //kono untracked file dekhbo
+git diff  //git difference diye kono file a notun ki change korechi, ki add korechi seta dekhte pabo, jta untracked.
+
+ git restore day1.txt  // kono file a jdi notun kichu likhi seta undo kora jai.
+git commit -m"msg debo"  // commit korlam
+git status // ebar check korle dekhabe nothing to commit. working tree clean. 
+git log // kakhn ki add korechi sb dekhte pabo, kobar commit korechi dekhte pabo.
+git log --oneline //aro details a dekhabe
+
+ git reset --hard HEAD^   //jta recent commit korechi seta uncommit korte chaile.
+git reset --soft HEAD^  
+git reset HEAD^  //  ekdm untracked obosthai chole jabe ,abar eke git add. , git commit krte hbe.
+
+.gitignore------------> test.txt, .env, *.txt( sob txt file gulo ignore ), !main.txt (main.txt k chere), test?.txt, temp/ (temp folder chere), node_modules/
+
+
+README.md hlo markdown file
+****************************************************************************
+<!--markdown tutorial-->
+
+sankhapratim pal(duto space dle new line)  
+
+this is second line
+
+--- horizantal line banate
+
+# heading h1 ekta has dle
+## heading 2 h2
+### heading 3 h3
+#### heading 4 h4
+##### heading 5 h5
+###### heading 6 h6
+
+<i>this is italic synmol</i>  
+_this is an italic by using underscore_
+
+__this is an bold by using two underscores both sides__
+
+~~till draw sign both side dle Strike through ase~~
+
+### single line code
+`This is inline`  
+```
+<html>
+<head>
+
+</head>
+<body>
+
+
+</body>
+</html>
+```
+
+```javascript
+console.log("this is md")
+```
+
+### ordered list
+1. potato  
+2. onion
+3. Brinjal  
+     3.1. brinjal 1.0  
+      3.2.  brinjal 2.0
+
+### Unordered list
+- item1
+- item 2
+- item 3
+
+### Task list
+- [*] Task 1
+- [*] Task 1
+- [] Task 3
+
+
+### Automatic link
+http://www.sankhapratim.com
+
+### Disable link
+`http://www.sankhapratim.com`
+
+
+### Markdown Link Syntax
+[sankhapratim](http://www.sankhapratim.com)
+
+### image syntax
+<img src="" height="200" width="300" title="profile image">
+
+### Table
+
+| Name | Email |
+| ---- | ----- |
+| sankha | abc.com |
+| sankha | abc.com |
+| sankha | abc.com |
+| sankha | abc.com |
+
+****************************************************************************
+
+cd git\ learning/
+git status 
+git init
+git remote
+git remote add origin https://github.com/sankhapratim/readme-template.git
+git remote -v //status check korte
+git clone https://github.com/sankhapratim/readme-template.git
+git status   
+
+rm -rf git learning //folder del krte chaile
